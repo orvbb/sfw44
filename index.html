@@ -98,7 +98,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="whispers of grief" startnode="7" creator="Twine" creator-version="2.3.14" ifid="B106CAB7-AFBB-4DCD-A921-6117FEA70F27" zoom="0.6" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Nixie+One&display=swap');
+	<tw-storydata name="whispers of grief" startnode="6" creator="Twine" creator-version="2.3.14" ifid="B106CAB7-AFBB-4DCD-A921-6117FEA70F27" zoom="0.6" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Nixie+One&display=swap');
 @font-face {
   font-family: "Open Dyslexic";
   src: url("https://dl.dropbox.com/s/z61rc6kecqzn2pm/OpenDyslexic-Regular.woff2")format("woff2"),
@@ -130,19 +130,19 @@ body.black .passage {
 	background-color: #ffffff
 	  font-color: #000000}
 
-body.ellie .passage {
+body.ellie {
 background-image: [img[images/ellie.png]];
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: 100% 100% ;
+background-size: 100% 100% ; 
 }
-  body.sash .passage {
+  body.sash {
 background-image: [img[images/ellie.png]];
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: 100% 100% ;
+background-size: 100% 100% ; !important;
 }
 a.link-visited {
 	color: purple;
@@ -239,58 +239,55 @@ $(document).click(function(e) {
 
 //visited link
     config.addVisitedLinkClass = true;
-// end visited link</script><tw-tag name="delete" color="red"></tw-tag>,<tw-tag name="sys" color="blue"></tw-tag><tw-passagedata pid="1" name="Feelings" tags="" position="2225,575" size="100,100">Your father is dead and you feel too cold to mourn.
-Your father died last night, in the car next to yours, and you did not know.
-(link:&quot;Why did you not know?&quot;)[How could you not have known?]
-[[Why didn&#39;t you feel anything?-&gt;Why]]</tw-passagedata><tw-passagedata pid="2" name="Why" tags="" position="2150,775" size="100,100">(t8n-time:1.2s)+(link-reveal:&quot;Why doesn&#39;t the world feel different?&quot;)[=
+// end visited link</script><tw-tag name="delete" color="red"></tw-tag>,<tw-tag name="sys" color="blue"></tw-tag><tw-passagedata pid="1" name="Why" tags="" position="1750,1460" size="100,100">(t8n-time:1.2s)+(link-reveal:&quot;Why doesn&#39;t the world feel different?&quot;)[=
 (t8n-time:1.2s)+(link-reveal:&quot;Why did the sun rise this morning? &quot;)[=
 (t8n-time:1.2s)+(link-reveal:&quot;Why did the stars not blot out last night?
-&quot;)[=(t8n-time:1.2s)+(link:&quot;You had thought - &quot;)[=(t8n-time:1.2s)+(link:&quot;You had assumed - &quot;)[=(t8n-time:1.2s)+(link:&quot;Well.&quot;)[=[[You had assumed wrong.-&gt;so what now?]]</tw-passagedata><tw-passagedata pid="3" name="so what now?" tags="" position="2125,925" size="100,100">Jung Heewon is still pacing by the door. Her hair has come loose from her bun and is half-down her back, but she makes no move to fix it. She crosses the length of the room in three strides, then swivels and crosses it again.
+&quot;)[=(t8n-time:1.2s)+(link:&quot;You had thought - &quot;)[=(t8n-time:1.2s)+(link:&quot;You had assumed - &quot;)[=(t8n-time:1.2s)+(link:&quot;Well.&quot;)[=[[You had assumed wrong.-&gt;so what now?]]</tw-passagedata><tw-passagedata pid="2" name="so what now?" tags="" position="1725,1610" size="100,100">Jung Heewon is still pacing by the door. Her hair has come loose from her bun and is half-down her back, but she makes no move to fix it. She crosses the length of the room in three strides, then swivels and crosses it again.
 And again.
-[[And again.|hsy is rude but what&#39;s new]]</tw-passagedata><tw-passagedata pid="4" name="hsy is rude but what&#39;s new" tags="" position="2225,1075" size="100,100">&quot;Pacing&#39;s not going to solve anything, you know.&quot;
+[[And again.|hsy is rude but what&#39;s new]]</tw-passagedata><tw-passagedata pid="3" name="hsy is rude but what&#39;s new" tags="" position="1825,1760" size="100,100">&quot;Pacing&#39;s not going to solve anything, you know.&quot;
 Han Sooyoung hasn&#39;t shifted from her seat by the window. She doesn&#39;t turn to look at Jung Heewon when she speaks, not until the other woman marches over and grabs her by the shoulder
 &quot;What am I supposed to do, then, huh?&quot; Jung Heewon demands. &quot;What *can* I do?&quot;
 Han Sooyoung is silent. 
 &quot;Well?&quot; Jung Heewon asks, shaking her slightly. &quot;Let&#39;s hear it.&quot; 
 [[You try to intervene.|step in]]
-[[You remain silent.|do nothing]]</tw-passagedata><tw-passagedata pid="5" name="step in" tags="" position="2150,1225" size="100,100">&quot;Heewon-unni,&quot; you say quietly. &quot;Please...&quot;
+[[You remain silent.|do nothing]]</tw-passagedata><tw-passagedata pid="4" name="step in" tags="" position="1750,1910" size="100,100">&quot;Heewon-unni,&quot; you say quietly. &quot;Please...&quot;
 Please what, you don&#39;t know. *Please don&#39;t fight? Please don&#39;t take your anger at this situation out on us? Please don&#39;t make this situation worse than it already is? Please remember that it&#39;s &#39;&#39;my&#39;&#39; father in the room next door?*
 In the end, you can&#39;t find the words to fill the silence.
 Jung Heewon glances over at you. Something in what she sees must be convincing, as her expression softens.
-&quot;Sorry, Yoosung-ie.&quot; she murmurs.</tw-passagedata><tw-passagedata pid="6" name="do nothing" tags="" position="2300,1225" size="100,100">You bite your lips. It&#39;s clear to you that Jung Heewon is upset and hurting, and just lashing out. You wish you had the words to calm her down, but right now it&#39;s taking everything you have not to cry.
+&quot;Sorry, Yoosung-ie.&quot; she murmurs.</tw-passagedata><tw-passagedata pid="5" name="do nothing" tags="" position="1900,1910" size="100,100">You bite your lips. It&#39;s clear to you that Jung Heewon is upset and hurting, and just lashing out. You wish you had the words to calm her down, but right now it&#39;s taking everything you have not to cry.
 &quot;Heewon-ssi.&quot; Yoo Sangah speaks for the first time since entering the room. &quot;Drop it.&quot;
 &quot;Sangah-ssi--&quot;
 &quot;I can fight my own battles, tha-&quot;
 &quot;Both of you,&quot; Yoo Sangah warns icily, &quot;need to calm down right now.&quot;
 As if on cue, Jung Heewon and Han Sooyoung look in your direction.
-&quot;Please don&#39;t fight,&quot; you echo, voice wobbling. &quot;Not now.&quot;</tw-passagedata><tw-passagedata pid="7" name="Start" tags="" position="125,25" size="100,100">&lt;&lt;type 70ms&gt;&gt;The beast roars and shudders. 
+&quot;Please don&#39;t fight,&quot; you echo, voice wobbling. &quot;Not now.&quot;</tw-passagedata><tw-passagedata pid="6" name="Start" tags="" position="125,25" size="100,100">&lt;&lt;type 70ms&gt;&gt;The beast roars and shudders. 
 Inside one of its many stomachs, lost amidst the cacophony of its creaks and groans, there is a quiet gasp.&lt;&lt;/type&gt;&gt;
 &lt;&lt;type 100ms start 2s&gt;&gt;A thud.&lt;&lt;/type&gt;&gt;
 &lt;&lt;type 70ms start 2s&gt;&gt;The train rattles on...&lt;&lt;/type&gt;&gt;
 &lt;&lt;type 70ms start 3s keep&gt;&gt;[[And on...|Selection]] &lt;&lt;/type&gt;&gt;
-</tw-passagedata><tw-passagedata pid="8" name="Selection" tags="" position="125,125" size="100,100">It&#39;s been some time since you boarded the train, but you still can&#39;t help but feel uneasy.
+</tw-passagedata><tw-passagedata pid="7" name="Selection" tags="" position="125,125" size="100,100">It&#39;s been some time since you boarded the train, but you still can&#39;t help but feel uneasy.
 Each bump and rattle only serves to emphasise the nerves in your stomach. You can&#39;t explain it, but some part of you thinks that //something// is wrong.
 @@color:red;[[You don&#39;t know it yet, but that part of you is right.|Start1]]@@
-</tw-passagedata><tw-passagedata pid="9" name="Start1" tags="" position="125,225" size="100,100">You swing your feet back and forth under your chair, It&#39;s higher than you&#39;re used to, and if you scoot back, your toes don&#39;t quite touch the ground.
+</tw-passagedata><tw-passagedata pid="8" name="Start1" tags="" position="125,225" size="100,100">You swing your feet back and forth under your chair, It&#39;s higher than you&#39;re used to, and if you scoot back, your toes don&#39;t quite touch the ground.
 [[You&#39;re not quite that bored yet, though, so after a while you stop.|do1]]
-[[You keep doing it, since it&#39;s not like there&#39;s anything else to do.|do1.1]]</tw-passagedata><tw-passagedata pid="10" name="do1.1" tags="" position="475,100" size="100,100">You have nothing better to do. Really.
+[[You keep doing it, since it&#39;s not like there&#39;s anything else to do.|do1.1]]</tw-passagedata><tw-passagedata pid="9" name="do1.1" tags="" position="475,100" size="100,100">You have nothing better to do. Really.
 After a few more kicks, you decide to see if you can lean aaaaall the way back and still manage to swing your feet.
 &quot;Cut it out!&quot; Lee Gilyoung hisses.
 [[What&#39;s it his business if you want to do that?|LGY1.1]]
 [[You cut it out. It wasn&#39;t that fun anyway.|do1]]
-[[Just for that, you make sure to aim for his ankle.|LGY1.2]]</tw-passagedata><tw-passagedata pid="11" name="LGY1.1" tags="" position="580,170" size="100,100">Lee Gilyoung is sitting across from you. He scowls at you when he sees you looking.
+[[Just for that, you make sure to aim for his ankle.|LGY1.2]]</tw-passagedata><tw-passagedata pid="10" name="LGY1.1" tags="" position="580,170" size="100,100">Lee Gilyoung is sitting across from you. He scowls at you when he sees you looking.
 &quot;What do you want?&quot; he asks, ever surly.
 
 What //do// you want?
 [[To annoy him, of course. -&gt;annoy lgy]] 
 [[You&#39;re bored enough that you consider actually talking to him for once. -&gt;talk lgy1]] 
-[[Ugh, forget about it. There&#39;s bound to be something more interesting somewhere around here. -&gt;do1]] </tw-passagedata><tw-passagedata pid="12" name="LGY1.2" tags="" position="575,50" size="100,100">&quot;Hey!&quot; Lee Gilyoung shouts. He pulls his foot up and rubs at his ankle. &quot;What was that for?&quot;
+[[Ugh, forget about it. There&#39;s bound to be something more interesting somewhere around here. -&gt;do1]] </tw-passagedata><tw-passagedata pid="11" name="LGY1.2" tags="" position="575,50" size="100,100">&quot;Hey!&quot; Lee Gilyoung shouts. He pulls his foot up and rubs at his ankle. &quot;What was that for?&quot;
 &quot;Don&#39;t tell me what to do,&quot; you sniff. Serves him right, honestly.
 &quot;Yoosung,&quot; Yoo Sangah says distracatedly, &quot;It wasn&#39;t very nice of you to hit Gilyoung. Please apologise.&quot;
 //Ugh.// But, if Sangah-unnie says so, you have to do it.
 &quot;Sorry,&quot; you tell him. You don&#39;t really mean it.
 &quot;It&#39;s fine,&quot; Lee Gilyoung mutters, still rubbing his ankle. You can tell he doesn&#39;t really mean it either. That&#39;s fine with you, but it does leave you with one less source of entertainment.
-[[So, what are you going to do? -&gt;lgy2.1]] </tw-passagedata><tw-passagedata pid="13" name="ysa1" tags="" position="525,850" size="100,100">&lt;&lt;linkappend &quot;\&quot;How much further do we have to go?\&quot;&quot;&gt;&gt; 
+[[So, what are you going to do? -&gt;lgy2.1]] </tw-passagedata><tw-passagedata pid="12" name="ysa1" tags="" position="525,850" size="100,100">&lt;&lt;linkappend &quot;\&quot;How much further do we have to go?\&quot;&quot;&gt;&gt; 
 &quot;We&#39;ll get there before you know it,&quot; Yoo Sangah says.
 That&#39;s not the answer you were hoping for. &lt;&lt;/linkappend&gt;&gt;
 &lt;&lt;linkappend &quot;\&quot;It&#39;s really loud, isn&#39;t it?\&quot;&quot;&gt;&gt; 
@@ -307,103 +304,127 @@ Yoo Sangah tweaks your nose. &quot;You won&#39;t get rid of me that quickly,&quo
 &quot;Your dad? She pauses, biting at her lip, before shaking her head. &quot;That, I&#39;m not sure about. He sent me the directions, so if we don&#39;t see him there, then we&#39;ll meet him at the house.&quot;&lt;&lt;/linkappend&gt;&gt;
 &lt;&lt;else&gt;&gt;&lt;&lt;linkappend &quot;\&quot;How come you came with us?\&quot;&quot;&gt;&gt;
 &quot;//Why// did I come with you,&quot; she corrects. Then, &quot;Your dad asked me to bring something for him. Aside from that, I have some work I need to get done in the capital.&quot;&lt;&lt;/linkappend&gt;&gt; &lt;&lt;/if&gt;&gt;
-[[You don&#39;t have any more questions.|YSA2]]</tw-passagedata><tw-passagedata pid="14" name="LGY3" tags="" position="825,325" size="100,100">You&#39;re not above poking your archnemesis to get his attention.
+[[You don&#39;t have any more questions.|YSA2]]</tw-passagedata><tw-passagedata pid="13" name="LGY3" tags="" position="825,325" size="100,100">You&#39;re not above poking your archnemesis to get his attention.
 &quot;Cut it out,&quot; Lee Gilyoung hisses.
 He definitely looks annoyed now. Is it really enough, though?
 [[satisfied]]
-[[No way. You poke him again. -&gt; LGY4]]</tw-passagedata><tw-passagedata pid="15" name="talk lgy1" tags="sys" position="1251.6666666666667,305" size="100,100">What even is there to talk to the bug boy about?
+[[No way. You poke him again. -&gt; LGY4]]</tw-passagedata><tw-passagedata pid="14" name="talk lgy1" tags="sys" position="1251,305" size="100,100">What even is there to talk to the bug boy about?
 [[Bugs, maybe? -&gt;bugs1]]
-[[The train. -&gt; lgy train thoughts]]
-[[The trip. -&gt; lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="16" name=" env1.3" tags="sys" position="425,525" size="100,100">You&#39;re currently in the coach. The seats are hard and uncomfortable and you swear you can feel every jolt of the train. 
+[[The train. -&gt;lgy train thoughts]]
+[[The trip. -&gt;lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="15" name=" env1.3" tags="sys" position="425,525" size="100,100">You&#39;re currently in the coach. The seats are hard and uncomfortable and you swear you can feel every jolt of the train. 
 The car is fairly empty. Lee Gilyoung is sitting across from you. He scowls at you and you stick your tongue out at him.
 Yoo Sangah is next to you. When she sees you looking around, she gives you a small smile and squeezes your hand.
 Aside from them, only a few of the other seats are occupied.
 [[You try to figure out if recognise the other passengers. -&gt;other occupants]]
 [[You try to talk to Yoo Sangah. -&gt;ysa1]]
-[[You decide to look outside instead. -&gt;env1.2]]</tw-passagedata><tw-passagedata pid="17" name="bugs1" tags="sys" position="1150,425" size="100,100">[[Yeah, no. -&gt;talk lgy1.1]] </tw-passagedata><tw-passagedata pid="18" name=" lgy train thoughts" tags="sys" position="1230,405" size="100,100">&quot;It&#39;s really loud, isn&#39;t it?&quot; 
+[[You decide to look outside instead. -&gt;env1.2]]</tw-passagedata><tw-passagedata pid="16" name="bugs1" tags="sys" position="1150,425" size="100,100">[[Yeah, no. -&gt;talk lgy1.1]] </tw-passagedata><tw-passagedata pid="17" name="lgy train thoughts" tags="sys" position="1475.0000000000002,370.00000000000006" size="100,100">&quot;It&#39;s really loud, isn&#39;t it?&quot; 
 Lee Gilyoung looks a bit concerned. &quot;I heard some banging a while back. Is it supposed to sound like that?&quot;
-You&#39;re not sure...</tw-passagedata><tw-passagedata pid="19" name=" lgy trip thoughts" tags="sys" position="1350,425" size="100,100">&quot;How much longer do we have to go?&quot; you ask.
+You&#39;re not sure...
+[[You think about asking him something else.|nexus]]</tw-passagedata><tw-passagedata pid="18" name="lgy trip thoughts" tags="sys" position="1463.3333333333335,495.00000000000006" size="100,100">&quot;How much longer do we have to go?&quot; you ask.
 &quot;How should I know?&quot; Lee Gilyoung looks at you like you&#39;re crazy.
 Yoo Sangah pats your head absently. &quot;We&#39;ll get there before you know it.&quot;
-That&#39;s not really an answer, though...</tw-passagedata><tw-passagedata pid="20" name="talk lgy1.1" tags="sys" position="1150,525" size="100,100">What else is there to talk to the bug boy about?
+That&#39;s not really an answer, though...
+[[You think about asking him something else.|nexus]]</tw-passagedata><tw-passagedata pid="19" name="talk lgy1.1" tags="sys" position="1150,525" size="100,100">What else is there to talk to the bug boy about?
 [[Bugs? -&gt;bugs2]]
-[[The train. -&gt; lgy train thoughts]]
-[[The trip. -&gt; lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="21" name="bugs2" tags="sys" position="1150,625" size="100,100">[[No. -&gt;talk lgy1.2]] </tw-passagedata><tw-passagedata pid="22" name="talk lgy1.2" tags="sys" position="1150,725" size="100,100">What else is there to talk to the bug boy about?
+[[The train. -&gt;lgy train thoughts]]
+[[The trip. -&gt;lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="20" name="bugs2" tags="sys" position="1150,625" size="100,100">[[No. -&gt;talk lgy1.2]] </tw-passagedata><tw-passagedata pid="21" name="talk lgy1.2" tags="sys" position="1150,725" size="100,100">What else is there to talk to the bug boy about?
 [[Bugs. -&gt;bugs3]]
-[[The train. -&gt; lgy train thoughts]]
-[[The trip. -&gt; lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="23" name="bugs3" tags="sys" position="1150,825" size="100,100">[[//No.// -&gt;talk lgy1.3]] </tw-passagedata><tw-passagedata pid="24" name="talk lgy1.3" tags="sys" position="1250,725" size="100,100">Surely, there is something else to talk to the bug boy about?
+[[The train. -&gt;lgy train thoughts]]
+[[The trip. -&gt;lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="22" name="bugs3" tags="sys" position="1150,825" size="100,100">[[//No.// -&gt;talk lgy1.3]] </tw-passagedata><tw-passagedata pid="23" name="talk lgy1.3" tags="sys" position="1270,725" size="100,100">Surely, there is something else to talk to the bug boy about?
 [[&#39;&#39;BUGS.&#39;&#39; -&gt;bugs4]]
-[[The train. -&gt; lgy train thoughts]]
-[[The trip. -&gt; lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="25" name="bugs4" tags="sys" position="1250,825" size="100,100">What is wrong with you? Don&#39;t you know how to take no for an answer?
+[[The train. -&gt;lgy train thoughts]]
+[[The trip. -&gt;lgy trip thoughts]]</tw-passagedata><tw-passagedata pid="24" name="bugs4" tags="sys" position="1270,845" size="100,100">What is wrong with you? Don&#39;t you know how to take no for an answer?
 &lt;linkappend &quot;//Uh...//&quot; Leave her alone!&quot;&gt;&lt;/linkappend&gt;
 (t8n-time:2s)+(link-reveal:&quot;She doesn&#39;t want to talk about bugs!&quot;)[=
 (t8n:&quot;shudder&quot;)+(t8n-time:1s)+(link:&quot;//Okay...//&quot;)[= (t8n-time:2s)+(link-reveal:&quot;Pick something else!&quot;)[=
-[[Okay!! -&gt;talk lgy1.4]] </tw-passagedata><tw-passagedata pid="26" name="talk lgy1.4" tags="" position="1350,625" size="100,100">What do you talk to the bug boy about?
-[[The train. -&gt; lgy train thoughts]]
-[[The trip. -&gt; lgy trip thoughts]]
-[[There has to be something more interesting out there to talk about. -&gt; lgy passengers thoughts]]</tw-passagedata><tw-passagedata pid="27" name=" lgy passengers thoughts" tags="" position="1450,625" size="100,100">&quot;Did you see anyone you recognise on board?&quot; you ask.
+[[Okay!! -&gt;talk lgy1.4]] </tw-passagedata><tw-passagedata pid="25" name="talk lgy1.4" tags="" position="1321.6666666666667,495" size="100,100">What do you talk to the bug boy about?
+[[The train. -&gt;lgy train thoughts]]
+[[The trip. -&gt;lgy trip thoughts]]
+[[There has to be something more interesting out there to talk about. -&gt; lgy passengers thoughts]]</tw-passagedata><tw-passagedata pid="26" name=" lgy passengers thoughts" tags="" position="1450,625" size="100,100">&quot;Did you see anyone you recognise on board?&quot; you ask.
 &quot;Aside from you?&quot; Lee Gilyoung snorts.
 You roll your eyes. &quot;//Aside// from me,&quot; you clarify. Then, before he can interject, &quot;AND aside from Sangah-unni.&quot;
 Lee Gilyoung reverts to his default expression when he doesn&#39;t know the answer to the question the teacher is asking. &quot;Not really,&quot; he mutters sulkily. &quot;It&#39;s not like any of them will talk to us, though, so what&#39;s the point in paying attention to any of them?&quot;
 [[They might play with us.|play]]
 [[They might talk to us.|strangers1]]
-[[&quot;What&#39;s the point in paying attention to you, then?&quot;|annoy2]]</tw-passagedata><tw-passagedata pid="28" name="play" tags="" position="1475,725" size="100,100">&quot;Maybe they&#39;ll play with us?&quot;
+[[&quot;What&#39;s the point in paying attention to you, then?&quot;|annoy2]]</tw-passagedata><tw-passagedata pid="27" name="play" tags="" position="1466.6666666666667,745" size="100,100">&quot;Maybe they&#39;ll play with us?&quot;
 &quot;What are you, a baby?&quot; Lee Gilyoung scoffs. &quot;Adults don&#39;t play with kids like us. You know that.&quot;
 He&#39;s right, but you don&#39;t like to admit it.
-&quot;Not everyone here is an adult,&quot; you point out, instead. </tw-passagedata><tw-passagedata pid="29" name="strangers1" tags="" position="1575,725" size="100,100">&quot;Well, maybe they know something?&quot;
+&quot;Not everyone here is an adult,&quot; you point out, instead. 
+Lee Gilyoung looks over at the only other kid in the room, a little girl with her hair in pigtails. &quot;That&#39;s a //baby//,&quot; he scoffs. &quot;If you want to play with her, go right ahead.&quot;
+You glare at him. &quot;Maybe I //will//!&quot; you declare. A little kid would be more fun than Lee Gilyoung, right about now.
+[[Lee Gilyoung&#39;s mouth twists.|nexus]]</tw-passagedata><tw-passagedata pid="28" name="strangers1" tags="" position="1575,725" size="100,100">&quot;Well, maybe they know something?&quot;
 &quot;About what?&quot; Lee Gilyoung looks suspicious.
 &quot;I don&#39;t know, the train, or Seoul, or where ahjussi is...&quot;
-&quot;Hyung is in Seoul,&quot; Lee Gilyoung says, frowning. &quot;That&#39;s why we&#39;re going there. What else is there to know?&quot;</tw-passagedata><tw-passagedata pid="30" name="annoy2" tags="" position="1675,725" size="100,100">&quot;You don&#39;t need to be //rude.//&quot; Lee Gilyoung snaps. &quot;I was just saying.&quot;
-</tw-passagedata><tw-passagedata pid="31" name=" LGY4" tags="" position="825,425" size="100,100">&quot;Quit it!&quot; Lee Gilyoung jumps to his feet, flushed with anger. &quot;Just leave me alone, Yoosung!
+&quot;Hyung is in Seoul,&quot; Lee Gilyoung says, frowning. &quot;That&#39;s why we&#39;re going there. What else is there to know?&quot;
+&quot;I don&#39;t know,&quot; you say, growing impatient, &quot;that&#39;s what I&#39;d like to find out.
+Lee Gilyoung scoffs. &quot;If you want to waste your time, go right ahead.&quot;
+[[Maybe you //will/. Anything would be better than talking to this brat right about now.|nexus]]</tw-passagedata><tw-passagedata pid="29" name="annoy2" tags="" position="1675,725" size="100,100">&quot;You don&#39;t need to be //rude.//&quot; Lee Gilyoung snaps. &quot;I was just saying.&quot;
+&quot;So was I,&quot; you retort.
+&quot;You&#39;re such a brat,&quot; Lee Gilyoung spits.
+&quot;YOU&#39;RE the brat.&quot; 
+[[Not your best comeback.|nexus]]</tw-passagedata><tw-passagedata pid="30" name=" LGY4" tags="" position="825,425" size="100,100">&quot;Quit it!&quot; Lee Gilyoung jumps to his feet, flushed with anger. &quot;Just leave me alone, Yoosung!
 &quot;Gilyoung-ah,&quot; Yoo Sangah begins, but Lee Gilyoung storms away. The door to the next cabin slams shut behind him.
 The eyes of the other passengers turn to you.
 You:
 [[sink lower in your seat.-&gt;ashamed]]
-[[meet their gazes.-&gt;unashamed]]</tw-passagedata><tw-passagedata pid="32" name="lgy2.1" tags="" position="675,50" size="100,100">You could go back to kicking Lee Gilyoung, of course, but something tells you he won&#39;t take to that too kindly. Plus, you don&#39;t want Yoo Sangah to tell you off again... You never like it when that happens.
+[[meet their gazes.-&gt;unashamed]]</tw-passagedata><tw-passagedata pid="31" name="lgy2.1" tags="" position="675,50" size="100,100">You could go back to kicking Lee Gilyoung, of course, but something tells you he won&#39;t take to that too kindly. Plus, you don&#39;t want Yoo Sangah to tell you off again... You never like it when that happens.
 The train is so //boring// though.
 Isn&#39;t it?
-[[There&#39;s absolutely nothing interesting going on. -&gt; isn&#39;t there?]]</tw-passagedata><tw-passagedata pid="33" name=" isn&#39;t there?" tags="" position="775,50" size="100,100">Bored, you...
+[[There&#39;s absolutely nothing interesting going on. -&gt;isn&#39;t there]]</tw-passagedata><tw-passagedata pid="32" name="isn&#39;t there" tags="" position="775,50" size="100,100">Bored, you...
 * Take a look 
 ** [[around the cabin. -&gt;env2.2]]
 ** [[out the window.-&gt;env2.1]]
 * [[Try to talk to Yoo Sangah. -&gt;ysa1]] 
-* [[Decide there isn&#39;t really anything worth paying attention to in the cabin. -&gt;leave1]] </tw-passagedata><tw-passagedata pid="34" name="env2.2" tags="" position="1175,50" size="100,100">You&#39;re currently in what you&#39;ve been //told// is the coach. That doesn&#39;t really mean anything to you. The seats are hard and uncomfortable and you swear you can feel every jolt of the train. 
+* [[Decide there isn&#39;t really anything worth paying attention to in the cabin. -&gt;leave1]] </tw-passagedata><tw-passagedata pid="33" name="env2.2" tags="" position="1175,50" size="100,100">You&#39;re currently in what you&#39;ve been //told// is the coach. That doesn&#39;t really mean anything to you. The seats are hard and uncomfortable and you swear you can feel every jolt of the train. 
 The car is fairly empty. Lee Gilyoung is sitting across from you. He looks really, //really// mad.
 Yoo Sangah is next to you. When she sees you looking around, she gives you a small smile and squeezes your hand.
 Aside from them, only a few of the other seats are occupied.
 [[You try to figure out if recognise the other passengers. -&gt;other occupants]]
 [[You try to talk to Yoo Sangah. -&gt;ysa1]]
-[[You consider just getting up and leaving the cabin. -&gt;leave1]]</tw-passagedata><tw-passagedata pid="35" name="env2.1" tags="" position="1075,50" size="100,100">The world outside the train is... hard to make out.
+[[You consider just getting up and leaving the cabin. -&gt;leave1]]</tw-passagedata><tw-passagedata pid="34" name="env2.1" tags="" position="1075,50" size="100,100">The world outside the train is... hard to make out.
 A thick blanket of fog covers everything, so dense that it&#39;s difficult really to see even just the barest suggestion of shapes beyond the window. As the train barrels through the never-ending fog, it&#39;s easy to pretend that there&#39;s nothing else in the world beyond its billowing depths.
 You shiver a little at the thought, and can&#39;t quite figure out if it&#39;s with fear or delight at spooking yourself.
-Regardless, there&#39;s not much to see outside, so [[you turn your attention back inwards. -&gt;env2.2]] </tw-passagedata><tw-passagedata pid="36" name="leave1" tags="" position="1450,50" size="100,100">Even if this train car isn&#39;t interesting, maybe the other ones will be!
+Regardless, there&#39;s not much to see outside, so [[you turn your attention back inwards. -&gt;env2.2]] </tw-passagedata><tw-passagedata pid="35" name="leave1" tags="" position="1450,50" size="100,100">Even if this train car isn&#39;t interesting, maybe the other ones will be!
 Once the thought occurs to you, you wonder why you didn&#39;t consider it earlier. You make your excuses to Yoo Sangah, who, bemused, lets you pass. Once you&#39;re free to move around, you go...
 [[Forward, towards the front of the train.|forward]]
-[[Back, towards the end of the train.|back]]</tw-passagedata><tw-passagedata pid="37" name="ashamed" tags="" position="775,850" size="100,100">You slink lower, until your eyes are level with the table and you can pretend no one is looking at you.
+[[Back, towards the end of the train.|back]]</tw-passagedata><tw-passagedata pid="36" name="ashamed" tags="" position="775,810" size="100,100">You slink lower, until your eyes are level with the table and you can pretend no one is looking at you.
 You hear a sigh somewhere above you.
 &quot;Yoosung-ah...&quot; 
 You feel a hand rest on top of your head. It&#39;s gentle.
 &quot;Do you want to go apologise to Gilyoung?&quot; Yoo Sangah asks you softly.
 You nod, fighting back tears, and [[leave the cabin as well.|intercabin1]]
 
-</tw-passagedata><tw-passagedata pid="38" name="unashamed" tags="" position="925,850" size="100,100">You glare out at the onlookers. What right do they have to judge you? What do they know about you or Lee Gilyoung or why you are there on the train? They don&#39;t know anything, you think furiously.
+</tw-passagedata><tw-passagedata pid="37" name="unashamed" tags="" position="925,850" size="100,100">You glare out at the onlookers. What right do they have to judge you? What do they know about you or Lee Gilyoung or why you are there on the train? They don&#39;t know anything, you think furiously.
 &quot;Yoosung-ah,&quot; Yoo Sangah says carefully, &quot;are you okay?&quot;
 Your face burns. You can&#39;t tell whether it&#39;s with rage or with shame, or, more likely, some combination of the two.
 &quot;I don&#39;t want to talk about it,&quot; you mutter mulishly.
 Yoo Sangah purses her lips but doesn&#39;t press further. Instead, she asks, &quot;Do you want to apologise to Gilyoung?&quot;
-[[&quot;Why do I have to apologise to him?&quot;]]
-[[You stay silent.]]</tw-passagedata><tw-passagedata pid="39" name="&quot;Why do I have to apologise to him?&quot;" tags="" position="875,950" size="100,100">&quot;Yoosung...&quot; Yoo Sangah rubs at her forehead. &quot;You&#39;re not normally like this. What&#39;s wrong?&quot;
+[[&quot;Why do I have to apologise to him?&quot;]] 
+</tw-passagedata><tw-passagedata pid="38" name="&quot;Why do I have to apologise to him?&quot;" tags="" position="990,1033.3333333333333" size="100,100">&quot;Yoosung...&quot; Yoo Sangah rubs at her forehead. &quot;You&#39;re not normally like this. What&#39;s wrong?&quot;
 //What&#39;s wrong?//
 There are so many answers at the tip of your tongue that for a moment you stare at her, speechless.
 &quot;Yoosung-ah,&quot; Yoo Sangah chides. &quot;I need you to talk to me.&quot;
 &quot;What if I don&#39;t want to talk?&quot; The words burst out from somewhere inside you and it stuns you both. 
 It takes a momnet for Yoo Sangah to collect herself, before she says, slowly, &quot;I&#39;m worried about you.&quot;
-</tw-passagedata><tw-passagedata pid="40" name="You stay silent." tags="" position="975,950" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="41" name="intercabin1" tags="" position="775,950" size="100,100">The door opens into a short hallway, scarcely longer than you are tall, and ends abruptly with another door. You open the second door carefully, and find yourself in another train car.
+&quot;Don&#39;t be,&quot; you say. The words sound childish as you taste them in your mouth. Your face burns. Your eyes burn.
+You say, &quot;May I be excused.&quot;
+Yoo Sangah says, &quot;Yoosung--&quot;
+You say, &quot;May I be excused, //please//.&quot;
+Yoo Sangah sighs again, but she stands.
+[[You leave the cabin.|leave4]]</tw-passagedata><tw-passagedata pid="39" name="intercabin1" tags="" position="775,930" size="100,100">The door opens into a short hallway, scarcely longer than you are tall, and ends abruptly with another door. You open the second door carefully, and find yourself in another train car.
 This car is fancier than the one you were previously in, with long chairs that look really comfortable. There are a few adults who look your way when you enter, but no Lee Gilyoung. You ignore the stares and hurry through the main passageway to the door at the other end of the car.  
 Upon entering the next car you are suprised to see a long, thin hallway, with doors on either side. You rush through this one as well, until you come to the third car. When you open the door, your hope dwindling of finding Lee Gilyoung in this maze of shuddering cars, it comes as a surprise to actually spot him. He&#39;s standing in another long hallway, much like the one behind you, staring into one of the rooms. 
 His back is to you, his hand still on the doorknob. He does not react, even as you step closer, even as the door closes behind you.
-(seq-link:&quot;\&quot;There you are!\&quot; you say.&quot;,&quot;\&quot;I was looking for you,\&quot; you say.&quot;,&quot;\&quot;Hey,\&quot; you say.&quot;,&quot;\&quot;What&#39;s wrong?\&quot; you say.&quot;)
-(more:)[=You try to stand on your tiptoes but the angle doesn&#39;t allow you to [[see past him.-&gt;reveal0.1]]</tw-passagedata><tw-passagedata pid="42" name="yma1" tags="" position="200,850" size="100,100">&quot;Excuse me,&quot; you say to Yoo Sangah, on your best behaviour. &quot;May I please pass?&quot;
+&lt;&lt;cycle &quot;$talklgy&quot; once&gt;&gt;
+	&lt;&lt;option &quot;\&quot;There you are!\&quot; you say.&quot; 0&gt;&gt;
+	&lt;&lt;option &quot;\&quot;I was looking for you,\&quot; you say.&quot; 1&gt;&gt;
+	&lt;&lt;option &quot;\&quot;Hey,\&quot; you say.&quot; 2&gt;&gt;
+	&lt;&lt;option &quot;\&quot;What&#39;s wrong?\&quot; you say.&quot; 3&gt;&gt;
+&lt;&lt;/cycle&gt;&gt;
+[[Nothing.|reveal0.1]]
+
+
+</tw-passagedata><tw-passagedata pid="40" name="yma1" tags="" position="200,850" size="100,100">&quot;Excuse me,&quot; you say to Yoo Sangah, on your best behaviour. &quot;May I please pass?&quot;
 &quot;Of course,&quot; Yoo Sangah replies smiling. She stands to let you squeeze past her, and you do so quickly before making a beeline towards the girl across the cabin.
 &quot;Hello,&quot; you say, plopping down across from her. &quot;What&#39;s your name?&quot;
 The girl looks up at you, her cheeks bulging. She chews slowly before swallowing. When she speaks, her voice puts her at an even younger age than you&#39;d guessed. &quot;I&#39;m not supposed to talk to strangers.&quot;
@@ -419,7 +440,7 @@ Yoo Mia frowns in thought before shrugging. &quot;He says his job is to keep me 
 &quot;Yoo Joonghyuk!&quot;&lt;&lt;/linkappend&gt;&gt;
 &lt;&lt;linkappend &quot;\&quot;Why are going to Seoul?\&quot;&quot;&gt;&gt;
 Yoo Mia looks at you suspiciously. &quot;Why do you want to know?&quot;&lt;&lt;/linkappend&gt;&gt;
-[[You&#39;re done asking questions.|YMA1.5]]</tw-passagedata><tw-passagedata pid="43" name="ljh" tags="" position="50,850" size="100,100">&quot;Jihye-unni!!!&quot; you call, waving.
+[[You&#39;re done asking questions.|YMA1.5]]</tw-passagedata><tw-passagedata pid="41" name="ljh" tags="" position="50,850" size="100,100">&quot;Jihye-unni!!!&quot; you call, waving.
 Lee Jihye glances around before spotting you, and a smile breaks out across her face.
 &quot;Hey, squirts,&quot; she greets, coming  over to where you&#39;re sitting. Then, much more politely, &quot;Hello Sangah-unni.&quot;
 &quot;Hello, Jihye-yah,&quot; Yoo Sangah says, smiling back.
@@ -432,23 +453,22 @@ Lee Jihye glances around before spotting you, and a smile breaks out across her 
 &quot;That&#39;s the hope.&quot; Lee Jihye grins again, but this time it&#39;s clearly strained.
 Yoo Sangah squeezes Lee Jihye&#39;s elbow lightly. &quot;If there&#39;s anything you need...&quot;
 &quot;I know, unni.&quot;
-[[Lee Gilyoung kicks you under the table.]]</tw-passagedata><tw-passagedata pid="44" name="reveal0.1" tags="" position="775,1050" size="100,100">&quot;Hey, Lee Gilyoung,&quot; you say, beginning to feel annoyed. You attempt to push past him to see what he&#39;s looking at, but he grabs at your wrist.
-(text-style:&quot;smear&quot;)[&quot;Don&#39;t-&quot; he warns,]
-&#39;&#39;(link-reveal:&quot;but&quot;)
-[
-(link-reveal:&quot;it&#39;s&quot;)
-[
-(link-reveal:&quot;already&quot;)
-[
-(link-reveal:&quot;too&quot;)
-[
-(t8n-depart:&quot;shudder&quot;)+(t8n-arrive:&quot;shudder&quot;)+(t8n-time:1.2s)[[late.-&gt;reveal1]]]]]]
-&#39;&#39;</tw-passagedata><tw-passagedata pid="45" name="reveal1" tags="black" position="775,1170" size="100,100">You see.
+[[Lee Gilyoung kicks you under the table.]]</tw-passagedata><tw-passagedata pid="42" name="reveal0.1" tags="" position="775,1050" size="100,100">You try to stand on your tiptoes but the angle doesn&#39;t allow you to see past him.
+&quot;Hey, Lee Gilyoung,&quot; you say, beginning to feel annoyed. You attempt to push past him to see what he&#39;s looking at, but he grabs at your wrist.
+&lt;&lt;linkappend &quot;\&quot;Don&#39;t-\&quot; he warns.&quot;&gt;&gt;
+&lt;&lt;type 100ms&gt;&gt;But
+
+it&#39;s
+
+already
+
+too 
+
+[[late.|reveal1]]&lt;&lt;/type&gt;&gt;&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="43" name="reveal1" tags="black" position="775,1170" size="100,100">You see.
 And you wish you hadn&#39;t.
 You wish you could go back to just moments before.
 when you were ignorant.
-when you hadn&#39;t [[seen.|body]]</tw-passagedata><tw-passagedata pid="46" name="body" tags="ellie" position="775,1325" size="100,100">[[discovery]]
-</tw-passagedata><tw-passagedata pid="47" name="discovery" tags="" position="775,1425" size="100,100">He looks like he&#39;s sleeping, almost.
+when you hadn&#39;t [[seen.|body]]</tw-passagedata><tw-passagedata pid="44" name="body" tags="ellie" position="775,1285" size="100,100">&lt;a data-passage=&quot;discovery&quot; class=&quot;link-internal link-image&quot;&gt;&lt;img src=&quot;https://cdn.discordapp.com/attachments/892805116946685953/949410425068458024/bigbang.png&quot; width=&quot;1000&quot; height=&quot;800&quot;&gt;&lt;/a&gt;</tw-passagedata><tw-passagedata pid="45" name="discovery" tags="" position="775,1405" size="100,100">He looks like he&#39;s sleeping, almost.
 Your hand reaches out but you force it back.
 You don&#39;t dare to touch, to rouse him from his slumber. 
 You don&#39;t want to feel the coldness of his skin, to break the illusion, to shake away the book still lying spread open on his stomach and reveal what lies beneath it. What you know to lie beneath it. 
@@ -456,11 +476,17 @@ You take in a ragged breath. The smell of rusted iron hits the back of your thro
 There are hands around you and it breaks the spell. 
 There are hands around you and it wakes you up from your dream.
 There are hands around you and the door is closing before you, and they are dragging you away, away, away--
-There are hands around you, and [[Kim Dokja is dead.]] </tw-passagedata><tw-passagedata pid="48" name="Kim Dokja is dead." tags="" position="775,1525" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="49" name="satisfied" tags="" position="925,325" size="100,100">What do you want to do now?
+There are hands around you, and [[Kim Dokja is dead.]] </tw-passagedata><tw-passagedata pid="46" name="Kim Dokja is dead." tags="" position="775,1525" size="100,100">There are voices.
+They filter back slowly. You are sitting in the coach once more, Lee Gilyoung next to you. Yoo Sangah is holding you both, the way she used to when you your parents had first died, and you were very little and scared.
+You feel small. You feel scared.
+Lee Gilyoung is shaking.
+Kim Dokja is dead.
+You are shaking.
+[[Your father is dead.|KDJ1]]</tw-passagedata><tw-passagedata pid="47" name="satisfied" tags="" position="925,325" size="100,100">What do you want to do now?
 [[You&#39;re bored enough that you consider actually talking to him for once. -&gt;talk lgy1]] 
-[[Ugh, forget about it. There&#39;s bound to be something more interesting somewhere around here. -&gt;do1]] </tw-passagedata><tw-passagedata pid="50" name="YMA2" tags="" position="205,930" size="100,100">At your question, Yoo Mia lights up. &quot;Really?&quot; she asks.
+[[Ugh, forget about it. There&#39;s bound to be something more interesting somewhere around here. -&gt;do1]] </tw-passagedata><tw-passagedata pid="48" name="YMA2" tags="" position="205,930" size="100,100">At your question, Yoo Mia lights up. &quot;Really?&quot; she asks.
 [[Of course!|YMA3]]
-[[On second thought...]]</tw-passagedata><tw-passagedata pid="51" name="YMA3" tags="" position="200,1050" size="100,100">When you nod, grinning, Yoo Mia hurriedly shoves another dumpling in her mouth and scrambles to her feet.
+[[On second thought...]]</tw-passagedata><tw-passagedata pid="49" name="YMA3" tags="" position="200,1050" size="100,100">When you nod, grinning, Yoo Mia hurriedly shoves another dumpling in her mouth and scrambles to her feet.
 &quot;We can play hide and seek!&quot; she cheers. &quot;There&#39;re tons of hiding places on this train.&quot;
 &quot;Do you mind if he plays too?&quot; You point at Lee Gilyoung who pretends he hasn&#39;t been paying attention to your conversation.
 Yoo Mia purses her lips, brows furrowing. Finally, she gives a decisive nod. &quot;He can play -- //if// he&#39;s not a gross boy about it.&quot;
@@ -470,14 +496,14 @@ Yoo Mia crosses her arms, scowling. &quot;You have to be serious,&quot; she decl
 &quot;Okay, okay,&quot; Lee Gilyoung grumbles. You bite your cheek so that you won&#39;t laugh at the eight year old using such a big word, and straighten up.
 &quot;You&#39;ll be it,&quot; Yoo Mia says, pointing at Lee Gilyoung. &quot;You have to let us hide and then count to ten. No peeking!&quot;
 &quot;I know how to play hide and seek,&quot; Lee Gilyoung mutters, but he covers his eyes regardless.
-[[If Lee Gilyoung is it, then that means you need to hide. And quickly!|find a hiding spot]]</tw-passagedata><tw-passagedata pid="52" name="On second thought..." tags="" position="300,1050" size="100,100">You glance back at Lee Gilyoung. He rolls his eyes and mouths //Baby.//
+[[If Lee Gilyoung is it, then that means you need to hide. And quickly!|find a hiding spot]]</tw-passagedata><tw-passagedata pid="50" name="On second thought..." tags="" position="300,1050" size="100,100">You glance back at Lee Gilyoung. He rolls his eyes and mouths //Baby.//
 &quot;Actually...&quot; You look at Yoo Mia&#39;s excited expression and feel yourself waver. &quot;Yeah! Of course I&#39;ll play with you.&quot;
 &quot;We can play hide and seek!&quot; she cheers. &quot;There&#39;re tons of hiding places on this train.&quot;
 You briefly - very briefly - consider inviting Lee Gilyoung, who&#39;s clearly too bored to pretend to be nice anymore, but dismiss the thought. 
 &quot;You can hide first, then.&quot; You don&#39;t mind being it. It&#39;s fun peeking around corners and into nooks and crannies to find other players.
 &quot;Let me hide first,&quot; Yoo Mia says, bouncing on her feet. &quot;Then count to ten. No peeking!&quot;
-You cover your eyes with your hands as you hear her dashing away. Straining your ears, you hear the sound of the door closing, too.</tw-passagedata><tw-passagedata pid="53" name="find a hiding spot" tags="" position="150,1150" size="100,100">Glancing around, you realise that there aren&#39;t many good hiding spots in the cabin. 
-[[You decide to hide in a different cabin.|leave2]]</tw-passagedata><tw-passagedata pid="54" name="YSA2" tags="" position="525,950" size="100,100"></tw-passagedata><tw-passagedata pid="55" name="Lee Gilyoung kicks you under the table." tags="" position="50,950" size="100,100">You shoot a bewildered glance at him. This isn&#39;t exactly the time to be playing around.
+You cover your eyes with your hands as you hear her dashing away. Straining your ears, you hear the sound of the door closing, too.</tw-passagedata><tw-passagedata pid="51" name="find a hiding spot" tags="" position="150,1150" size="100,100">Glancing around, you realise that there aren&#39;t many good hiding spots in the cabin. 
+[[You decide to hide in a different cabin.|leave2]]</tw-passagedata><tw-passagedata pid="52" name="YSA2" tags="" position="525,950" size="100,100"></tw-passagedata><tw-passagedata pid="53" name="Lee Gilyoung kicks you under the table." tags="" position="50,950" size="100,100">You shoot a bewildered glance at him. This isn&#39;t exactly the time to be playing around.
 //Hug her,// he mouths.
 //What??// You clearly misread that.
 He wraps his hands around himself in the imitation of a hug. //Hug. Her.//
@@ -487,30 +513,100 @@ Lee Jihye laughs. When you look back at her, she&#39;s wiping her eyes.
 You hesitate for a second before lunging across the table and squeezing tight around Lee Jihye&#39;s midriff. It&#39;s an awkward angle - really, Lee Gilyoung should have been the one to hug her - but she still seems to sag when you do it.
 &quot;Thanks, Yoosung-ie,&quot; she murmurs thickly.
 You all pretend you don&#39;t hear the break in her voice.
-</tw-passagedata><tw-passagedata pid="56" name="Untitled Passage" tags="" position="1375,725" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="57" name="Untitled Passage 1" tags="" position="1475,725" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="58" name="do1" tags="" position="100,425" size="100,100">Well, what else is there to do while you wait?
+Yoo Sangah claps, once, softly. &quot;Why don&#39;t I get you all something to drink?&quot; she asks. &quot;The dining car is right next door. Jihye-yah, some tea?&quot;
+Lee Jihye nods shakily. &quot;Yes, thank you.&quot;
+Yoo Sangah&#39;s eyes are kind. &quot;It&#39;s no trouble,&quot; she says. &quot;I&#39;ll be right back.&quot;
+[[You&#39;re still waiting when you hear the scream.||reveal0.2]]</tw-passagedata><tw-passagedata pid="54" name="do1" tags="" position="100,425" size="100,100">Well, what else is there to do while you wait?
 [[You decide to look around the cabin.|env1]]
 [[You decide to look outside.|env1.2]] 
-[[On second thought, maybe kicking your feet is the best entertainment you&#39;ve got.|Start1]]</tw-passagedata><tw-passagedata pid="59" name="env1" tags="" position="50,525" size="100,100">You&#39;re currently in what you&#39;ve been //told// is the coach. That doesn&#39;t really mean anything to you. The seats are hard and uncomfortable and you swear you can feel every jolt of the train. 
+[[On second thought, maybe kicking your feet is the best entertainment you&#39;ve got.|Start1]]</tw-passagedata><tw-passagedata pid="55" name="env1" tags="" position="50,525" size="100,100">You&#39;re currently in what you&#39;ve been //told// is the coach. That doesn&#39;t really mean anything to you. The seats are hard and uncomfortable and you swear you can feel every jolt of the train. 
 The car is fairly empty. Lee Gilyoung is sitting across from you. He scowls at you and you stick your tongue out at him.
 Yoo Sangah is next to you. When she sees you looking around, she gives you a small smile and squeezes your hand.
 Aside from them, only a few of the other seats are occupied.
 [[You try to figure out if recognise the other passengers.|other occupants]]
 [[You decide to annoy Lee Gilyoung.|annoy lgy]]
-[[You try to talk to Yoo Sangah.|ysa1]]</tw-passagedata><tw-passagedata pid="60" name="env1.2" tags="" position="150,525" size="100,100">The world outside the train is... hard to make out.
+[[You try to talk to Yoo Sangah.|ysa1]]</tw-passagedata><tw-passagedata pid="56" name="env1.2" tags="" position="150,525" size="100,100">The world outside the train is... hard to make out.
 A thick blanket of fog covers everything, so dense that it&#39;s difficult really to see even just the barest suggestion of shapes beyond the window.
-&lt;&lt;return [[So much for finding something interesting out there.|Start1]]&gt;&gt;</tw-passagedata><tw-passagedata pid="61" name="other occupants" tags="" position="100,675" size="100,100">There&#39;s another girl across the row, who you&#39;re not sure you recognise. Despite being pretty little, she&#39;s sitting by herself. She doesn&#39;t seem too concerned by that though, instead seemingly intent on eating one of the many dumplings in the lunch box on her lap.
+&lt;&lt;return [[So much for finding something interesting out there.|Start1]]&gt;&gt;</tw-passagedata><tw-passagedata pid="57" name="other occupants" tags="" position="100,675" size="100,100">There&#39;s another girl across the row, who you&#39;re not sure you recognise. Despite being pretty little, she&#39;s sitting by herself. She doesn&#39;t seem too concerned by that though, instead seemingly intent on eating one of the many dumplings in the lunch box on her lap.
 Behind Lee Gilyoung, you see the back of a very tall lady. She has white hair. Did she dye it?
 As you look around curiously, the door to the carriage opens. You perk up, finally seeing someone you recognise - Lee Jihye.
 [[You go over to the little girl.|yma1]]
-[[You greet Lee Jihye.|ljh]]</tw-passagedata><tw-passagedata pid="62" name="annoy lgy" tags="" position="425,350" size="100,100">How do you want to annoy him?
+[[You greet Lee Jihye.|ljh]]</tw-passagedata><tw-passagedata pid="58" name="annoy lgy" tags="" position="425,350" size="100,100">How do you want to annoy him?
 [[Kick him.|LGY1.2]]
 [[Poke him.|LGY3]]
 [[Make him talk to you.|talk lgy1]]
-Ugh. [[Is there really nothing better to do?| env1.3]]</tw-passagedata><tw-passagedata pid="63" name="forward" tags="" position="1700,0" size="100,100">Having no real destination in mind, you decide you might as well head in the same direction as the train itself.
-You make your way past all of the other passengers, and open the door at the end of the car.</tw-passagedata><tw-passagedata pid="64" name="back" tags="" position="1700,75" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="65" name="leave2" tags="" position="148.33333333333334,1270" size="100,100">Having no real destination in mind, you decide you might as well head in the same direction as the train itself.
-You hurry past all of the other passengers, and open the door at the end of the car.</tw-passagedata><tw-passagedata pid="66" name="YMA1.5" tags="" position="320,855" size="100,100">Shes&#39;s such a little kid... And even if she&#39;s not travelling alone, she&#39;s still by herself right now. Besides, she seems to be a bit tired of all your questions.
+Ugh. [[Is there really nothing better to do?| env1.3]]</tw-passagedata><tw-passagedata pid="59" name="forward" tags="" position="1700,0" size="100,100">Having no real destination in mind, you decide you might as well head in the same direction as the train itself.
+You make your way past all of the other passengers, and open the door at the end of the car. It opens into a short hallway, scarcely longer than you are tall, and ends abruptly with another door. You open the second door carefully, and find yourself in another train car.
+This car is fancier than the one you were previously in, with long chairs that look really comfortable. There are a few adults who look your way when you enter, but nothing any more interesting than the cabin you had just left. You ignore the stares and wander through the main passageway to the door at the other end of the car.  
+Upon entering the next car you are suprised to see a long, thin hallway, with doors on either side. You try a few of the doorknobs, but they all seem to be locked.
+[[Moving on, then.|intercabin3]]</tw-passagedata><tw-passagedata pid="60" name="back" tags="" position="1700,120" size="100,100">The next car is the DINING CAR, or so the metal engraving on the door says. You push the door open, expecting to be hit with a wave of mouth-watering aromas, but instead the cabin is disappointingly empty. Both of people, and of food. There are a few fancy-looking tables, but that&#39;s it.
+It doesn&#39;t look like there&#39;s anything any interesting here, either. [[You might as well turn back around.|returntocoach]]</tw-passagedata><tw-passagedata pid="61" name="leave2" tags="" position="148,1270" size="100,100">Having no real destination in mind, you decide you might as well head in the same direction as the train itself.
+You hurry past all of the other passengers, and open the door at the end of the car. It lets you out into another cabin, this one also filled with passengers and chairs, but no real hiding spots.
+[[Moving on, then!|intercabin2]]</tw-passagedata><tw-passagedata pid="62" name="YMA1.5" tags="" position="320,855" size="100,100">Shes&#39;s such a little kid... And even if she&#39;s not travelling alone, she&#39;s still by herself right now. Besides, she seems to be a bit tired of all your questions.
 Before you even realise it, the words are out of your mouth.
 [[&quot;Do you want to play with me?&quot;|YMA2]]
+</tw-passagedata><tw-passagedata pid="63" name="KDJ1" tags="" position="775,1675" size="100,100">Maybe he wasn&#39;t anything like your real dad, and maybe he wasn&#39;t ever home long enough to be there the way your first parents were, but he had taken you in. He had given you a home. He had been the first person to show you kindness, when the whole world had wanted you dead.
+[[And now he&#39;s gone.|feelings]]</tw-passagedata><tw-passagedata pid="64" name="reveal0.2" tags="" position="30,1100" size="100,100">You&#39;re on your feet before you even realise it. You and the other passengers crowd around the door.
+&quot;What is it?&quot; someone asks.
+&quot;Is everything okay?&quot; another murmurs.
+You trade glances with Lee Gilyoung. He nods.
+Both of you are small and quick, and you manage to squeeze where an adult couldn&#39;t. It&#39;s easy enough for you to make your way under and through the crowd to the other cabin, and then the one beyond that.
+And then. 
+And then.
+You [[&#39;&#39;see.&#39;&#39;|reveal1]]</tw-passagedata><tw-passagedata pid="65" name="intercabin2" tags="" position="148,1390" size="100,100">Upon entering the next car you are suprised to see a long, thin hallway, with doors on either side. You try each of the doors, but they&#39;re all locked. You swear you can hear the sound of feet running towards you.
+Lee Gilyoung is coming.
+Not wanting to lose so quickly, you rush to the end of the hallway and throw open the next door. This one leads to another long hallway, much like the one behind you. However, one of the doors has been left ajar.
+Your heart pounding, you dash over to it, [[throwing the door further open.|reveal0.3]]
+</tw-passagedata><tw-passagedata pid="66" name="reveal0.3" tags="" position="148,1491.6666666666667" size="100,100">The door behind you opens.
+&quot;Found you!&quot; Lee Gilyoung declares triumphantly.
+You do not react.
+You cannot react.
+Footsteps sound behind you, louder this time. Lee Gilyoung coming closer, probably.
+You can&#39;t find it in you to care. To turn around. To say something, when Lee Gilyoung asks -
+[[&quot;Yoosung?|reveal1]]
+</tw-passagedata><tw-passagedata pid="67" name="intercabin3" tags="" position="1915,36.66666666666665" size="100,100">Opening the next series of doors, you find yourself in another long hallway, much like the one behind you. However, one of the doors has been left ajar. The light leaks out from within it, leaving rays of sunlight to dance over the plush carpet.
+Curious, you move closer. Your hand reaches out and ever-so-gently, you push at the door.
+[[It swings open slowly.|reveal0.3]]
+</tw-passagedata><tw-passagedata pid="68" name="returntocoach" tags="" position="1700,270" size="100,100">You&#39;re returning back to the coach, [[when you hear the scream.|reveal0.4]]</tw-passagedata><tw-passagedata pid="69" name="reveal0.4" tags="" position="1698.3333333333333,390" size="100,100">You and the other passengers crowd around the door.
+&quot;What is it?&quot; someone asks.
+&quot;Is everything okay?&quot; another murmurs.
+You trade glances with Lee Gilyoung. He nods.
+Both of you are small and quick, and you manage to squeeze where an adult couldn&#39;t. It&#39;s easy enough for you to make your way under and through the crowd to the other cabin, and then the one beyond that.
+And then. 
+And then.
+You [[&#39;&#39;see.&#39;&#39;|reveal1]]</tw-passagedata><tw-passagedata pid="70" name="nexus" tags="" position="1258.3333333333335,1008.3333333333334" size="100,100">Before you can do anything, though, [[the screaming starts.|reveal0.2]]</tw-passagedata><tw-passagedata pid="71" name="feelings" tags="" position="771.6666666666666,1803.3333333333333" size="100,100">Your father is dead and you feel too cold to mourn.
+Your father died, on the same train as you, not far from where you sat, and you didn&#39;t even know.
+&lt;&lt;linkreplace &quot;Why did you not know?&quot;&gt;&gt;How could you not have known?&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;cycle &quot;$whywhywhy&quot; once&gt;&gt;
+	&lt;&lt;option &quot;Why doesn&#39;t the world feel different?&quot; 0&gt;&gt;
+	&lt;&lt;option &quot;Why is the sun still setting?&quot; 1&gt;&gt;
+	&lt;&lt;option &quot;Why has the earth not split apart?&quot; 2&gt;&gt;
+	&lt;&lt;option &quot;You had thought--&quot; 3&gt;&gt;
+	&lt;&lt;option &quot;Well.&quot; 4&gt;&gt;
+	&lt;&lt;option &quot;You had thought wrong.&quot; 5&gt;&gt;
+&lt;&lt;/cycle&gt;&gt;
+&lt;&lt;linkappend &quot;You should have known after the last time.&quot;&gt;&gt;[[ Everyone always dies.|snapback]]&lt;&lt;/linkappend&gt;&gt;
+</tw-passagedata><tw-passagedata pid="72" name="snapback" tags="" position="771.6666666666666,1953.3333333333333" size="100,100">&quot;Yoosung,&quot; someone says, shaking you by the shoulders. You blink. It&#39;s Yoo Sangah.
+You try to smile. It probably doesn&#39;t work.
+Yoo Sangah&#39;s eyes are rimmed red. &quot;Yoosung, are you okay?&quot;
+You&#39;re not. You&#39;re never going to be okay again.
+&quot;I&#39;m fine,&quot; you say.
+&quot;That&#39;s good,&quot; Yoo Sangah says. She does not look fine either.
+Behind her, the adults are still arguing. There are so many people in the train car now, and you wish they would [[all|who&#39;s who]] go away.</tw-passagedata><tw-passagedata pid="73" name="who&#39;s who" tags="" position="771.6666666666666,2103.333333333333" size="100,100">There&#39;s a a tall, broad-shouldered man, wearing an army uniform. He&#39;s the one who was sitting at the back of the cabin. Next to him is a tall woman, her hair tied back from her face. She&#39;s arguing with a much shorter woman, who you realise you recognise. It&#39;s Han Sooyoung, your father&#39;s friend. Both of them are nose to nose, shouting. The big man is trying to hold them apart, but he&#39;s not really succeeding.
+They&#39;re so loud.
+They&#39;re so angry.
+Another man enters the cabin, trailed by a woman wih silvery hair. He says something sharp. The cabin falls into silence. 
+Then it erupts once more.
+[[Lee Gilyoung holds your hand.|sash]]
+</tw-passagedata><tw-passagedata pid="74" name="sash" tags="" position="771.6666666666666,2253.333333333333" size="100,100">&lt;a data-passage=&quot;end&quot; class=&quot;link-internal link-image&quot;&gt;&lt;img src=&quot;https://cdn.discordapp.com/attachments/892805116946685953/945005300178620456/unknown.png&quot;&gt;&lt;/a&gt;</tw-passagedata><tw-passagedata pid="75" name="end" tags="" position="1180,2254.3332926432295" size="100,100">You have reached the end of this preview, which was written for the Omniscient Reader&#39;s Viewpoint 2022 Big Bang! This piece was made in collaboration with &lt;a href=&quot;https://twitter.com/ineedacatchyna1/status/1499882383201353730?s=20&quot;&gt;sash &lt;/a&gt; and &lt;a href=&quot;https://twitter.com/snezenie&quot;&gt;ellie&lt;/a&gt;. 
+
+Thank you for playing to the end! For updates on this on-going work, please check my twitter @Rivaaavir or my tumblr @demonlikejudgeoffire.
+
+I hope you enjoyed this, and look forward to writing more in the future! &lt;3</tw-passagedata><tw-passagedata pid="76" name="leave4" tags="" position="990,1183.3333333333333" size="100,100">You wander in a half-daze. You&#39;re not sure what you&#39;re looking for. You don&#39;t think you&#39;re even looking //for// something until you find yourself scanning the faces of the passengers in the cabins you pass through.
+Ultimately, though, your feet take you to Lee Gilyoung.
+They take you to the open door.
+They take you past Lee Gilyoung&#39;s hand, outstretched in warning.
+[[And they lead you to him.|reveal1]]
 </tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
